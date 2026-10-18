@@ -1,0 +1,5 @@
+ssh -p <port> username@hostname
+ls - list files and folders in the home directory
+cat ./- - read file named (-)
+
+

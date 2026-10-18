@@ -1,0 +1,3 @@
+ssh -p <port> username@hostname
+ls - check folders and files in the home directory
+cat readme - show content of the readme file
