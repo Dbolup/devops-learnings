@@ -1,11 +1,44 @@
-.htaccess
-css.php
-rpc/
-sites/site*/admin/
-sites/site*/private/
-sites/site*/public/admin/
-sites/site*/public/setup/
-sites/site*/public/theme/
-textpattern/
-HISTORY.txt
-README.txt
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa*
+*.kubeconfig
+kubeconfig
+
+# Terraform / IaC state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# Docker / Kubernetes local overrides
+docker-compose.override.yml
+secrets/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Language/tooling artifacts
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors and IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
